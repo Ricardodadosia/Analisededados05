@@ -32,3 +32,7 @@ if opcao in [1, 2, 3,]:
     print(f'\npreco: {valor:.2f}')
     print(f'valor final: {valor_final:.2f}')
     print(f'desconto: {desconto:.2f}')
+
+else:
+    print('escolha uma opcao valida')
+        
