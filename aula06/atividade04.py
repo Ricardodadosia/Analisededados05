@@ -1,5 +1,5 @@
 
-valor = float (input('valor do ingresso: '))
+valor = float(input('valor do ingresso: '))
 
 print('''
 [1] - Inteira (sem desconto)
@@ -26,3 +26,9 @@ match opcao:
 
     case _:
         print('opcao invalida')
+
+if opcao in [1, 2, 3,]:
+    valor_final = valor - desconto
+    print(f'\npreco: {valor:.2f}')
+    print(f'valor final: {valor_final:.2f}')
+    print(f'desconto: {desconto:.2f}')

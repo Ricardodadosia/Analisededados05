@@ -43,4 +43,3 @@ if opcao in [1, 2, 3, 4]:
 
 else:
     print('escolha uma opcao valida')
-    
