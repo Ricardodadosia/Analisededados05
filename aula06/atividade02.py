@@ -1,4 +1,5 @@
 numero = float (input('valor do numero: '))
+
 dobro = numero * 2
 triplo = numero * 3 
 quadrado = numero ** 2
