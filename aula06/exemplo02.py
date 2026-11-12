@@ -42,4 +42,5 @@ if opcao in [1, 2, 3, 4]:
     print(f'desconto: {desconto:.2f}')
 
 else:
-    print('nao houve desconto')
+    print('escolha uma opcao valida')
+    
