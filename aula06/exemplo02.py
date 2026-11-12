@@ -8,6 +8,7 @@ print('''
 
 ''')
 
+operacao = True
 desconto = 0 
 opcao = int(input(' informe a opcao escolhida: '))
 
@@ -29,15 +30,16 @@ match opcao:
         desconto = valor * 0.15
 
     case _: 
+        operacao = False
         print('opcao invalida')
 
-
-        
-if desconto != 0:
+if opcao in [1, 2, 3, 4]:
+# if operacao: == True:      
+# if desconto != 0:
     valor_final = valor - desconto
     print(f'\npreco: {valor:.2f}')
     print(f'valor final: {valor_final:.2f}')
     print(f'desconto: {desconto:.2f}')
 
 else:
-    print('nao houve desconto')    
+    print('nao houve desconto')
