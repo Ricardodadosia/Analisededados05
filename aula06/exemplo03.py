@@ -12,8 +12,8 @@
 # Laço For = Ele repete um bloco de código por um número determinado de vezes
 
 for i in range(3):
-    print(f'\nrodada: {i + 4}')
-    num = float(input('numero: '))
+    print(f'\n:{i + 4}: venda')
+    valor_venda = float(input('digite o valor da venda: '))
 
     dobro = num * 2
     triplo = num * 3 
