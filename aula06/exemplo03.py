@@ -12,6 +12,7 @@
 # Laço For = Ele repete um bloco de código por um número determinado de vezes
 
 for i in range(3):
+    print(f'\nrodada: {i + 4}')
     num = float(input('numero: '))
 
     dobro = num * 2
