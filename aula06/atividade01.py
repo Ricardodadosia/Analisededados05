@@ -3,9 +3,9 @@ for i in range(5):
     valor_venda = float(input('digite o valor da venda: '))
      
 if valor_venda < 200:
-    print('valor da venda sem desconto')
+    print('valor da venda com desconto')
     print(f'valor da {i + 1}: {valor_venda:.2f}')
-    somatorio_vendas = valor_venda
+    somatorio_vendas =  somatorio_vendas + valor_venda
 
 else:    
     print('valor da venda com desconto')
