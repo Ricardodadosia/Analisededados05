@@ -1,6 +1,6 @@
 
 for venda in range(5):
-    valor = float(input('valor da venda: '))
+    valor = float(input('\nvalor da venda: '))
 
     if valor >= 200 :
         desconto = valor * 0.10
@@ -11,3 +11,5 @@ for venda in range(5):
 
     print(f'desconto de R$ {desconto:.2f}')
     print(f'valor final de R$ {valor_final:.2f}')  
+
+    # Todas as variaveis criadas dentro do for serão resetadas a cada repetição do for, ou seja, não são acumuladas.
